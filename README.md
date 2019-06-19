@@ -19,8 +19,9 @@ to<br/>
 ![Survival Rate](https://github.com/ekenigsberg/BootCampHomework05-2019-06-19/blob/master/Pymaceuticals03-Survival%20Rate.png)
 ![Percent Change in Tumor Volume](https://github.com/ekenigsberg/BootCampHomework05-2019-06-19/blob/master/Pymaceuticals04-Percent%20Change.png)
 
-One observation:
-Following the [Better Way to Add Labels to Bar Charts](http://composition.al/blog/2015/11/29/a-better-way-to-add-labels-to-bar-charts-with-matplotlib/) caused my bars to disappear and leave data labels floating in space.
-* I worked around the problem by adding my data values to the X-axis labels.
-* I think my graph behaved strangely because I drew the bars individually (so that Python logic could selectively make the bars red or green).
-* I think the graph might have supported the data labels if I'd stored the negative values in one list, the positive values in a separate list, and then shown the data as a stacked bar graph.
+Two observations:
+* Following the [Better Way to Add Labels to Bar Charts](http://composition.al/blog/2015/11/29/a-better-way-to-add-labels-to-bar-charts-with-matplotlib/) caused my bars to disappear and leave data labels floating in space.
+  * I worked around the problem by adding my data values to the X-axis labels.
+  * I think my graph behaved strangely because I drew the bars individually (so that Python logic could selectively make the bars red or green).
+  * I think the graph might have supported the data labels if I'd stored the negative values in one list, the positive values in a separate list, and then shown the data as a stacked bar graph.
+* The graphs appear somewhat differently in the Jupyter Notebook than they appear when saved as images. sigh
